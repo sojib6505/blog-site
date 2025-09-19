@@ -15,6 +15,9 @@ li{
 a{
     text-decoration: none;
 }
+img{
+    width: 100%;
+}
 /* Navbar Start */
 .navbar{
     display: flex;
@@ -61,6 +64,31 @@ a{
     font-weight: 400;
     color: #707070;
     margin-top: 20px;
+    font-family: "Roboto", sans-serif;
 }
-/* /* Banner Section start End*/ 
+/* Banner Section start End*/ 
+/*  <!-- Main Section Start --> */
+.btn-part{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.btn-part button{
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #151515;
+    margin-top: 43px;
+    padding-right: 10px;
+}
+.btn-part button span{
+    padding-left: 10px;
+}
+.main-section-img{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
